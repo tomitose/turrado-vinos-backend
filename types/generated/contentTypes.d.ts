@@ -428,6 +428,7 @@ export interface ApiVinoVino extends Struct.CollectionTypeSchema {
     createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
     descripcion: Schema.Attribute.Blocks;
+    destacado: Schema.Attribute.Boolean;
     imagen: Schema.Attribute.Media<
       'images' | 'files' | 'videos' | 'audios',
       true

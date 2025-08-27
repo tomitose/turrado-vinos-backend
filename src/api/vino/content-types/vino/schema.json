@@ -39,6 +39,9 @@
     },
     "anada": {
       "type": "integer"
+    },
+    "destacado": {
+      "type": "boolean"
     }
   }
 }
