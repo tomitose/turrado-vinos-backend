@@ -42,6 +42,9 @@
     },
     "destacado": {
       "type": "boolean"
+    },
+    "recomendado": {
+      "type": "boolean"
     }
   }
 }
