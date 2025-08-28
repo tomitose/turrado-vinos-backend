@@ -45,6 +45,12 @@
     },
     "recomendado": {
       "type": "boolean"
+    },
+    "en_promocion": {
+      "type": "boolean"
+    },
+    "texto_promocion": {
+      "type": "string"
     }
   }
 }

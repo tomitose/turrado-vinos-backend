@@ -429,6 +429,7 @@ export interface ApiVinoVino extends Struct.CollectionTypeSchema {
       Schema.Attribute.Private;
     descripcion: Schema.Attribute.Blocks;
     destacado: Schema.Attribute.Boolean;
+    en_promocion: Schema.Attribute.Boolean;
     imagen: Schema.Attribute.Media<
       'images' | 'files' | 'videos' | 'audios',
       true
@@ -440,6 +441,7 @@ export interface ApiVinoVino extends Struct.CollectionTypeSchema {
     precio: Schema.Attribute.Decimal;
     publishedAt: Schema.Attribute.DateTime;
     recomendado: Schema.Attribute.Boolean;
+    texto_promocion: Schema.Attribute.String;
     updatedAt: Schema.Attribute.DateTime;
     updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
