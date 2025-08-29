@@ -18,6 +18,9 @@
     "descripcion": {
       "type": "blocks"
     },
+    "notas_cata": {
+      "type": "blocks"
+    },
     "precio": {
       "type": "decimal"
     },

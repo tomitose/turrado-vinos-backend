@@ -1,0 +1,5 @@
+/**
+ * identifier service
+ */
+
+export default () => ({});

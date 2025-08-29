@@ -438,6 +438,7 @@ export interface ApiVinoVino extends Struct.CollectionTypeSchema {
     localizations: Schema.Attribute.Relation<'oneToMany', 'api::vino.vino'> &
       Schema.Attribute.Private;
     nombre: Schema.Attribute.String & Schema.Attribute.Required;
+    notas_cata: Schema.Attribute.Blocks;
     precio: Schema.Attribute.Decimal;
     publishedAt: Schema.Attribute.DateTime;
     recomendado: Schema.Attribute.Boolean;
